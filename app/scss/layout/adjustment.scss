@@ -1,0 +1,60 @@
+/*------------------#SECTION-ADJUSTMENT----------------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%; 
+  // font-family: 'ubuntulight', 'Arial', sans-serif;
+  font-size: 14px;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.container {
+  width: $container-width;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  li {
+    list-style: none;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clearfix:after,
+.clearfix:before {
+  content: "";
+  display: block;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+footer {
+  width: 100%;
+}

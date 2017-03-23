@@ -1,0 +1,25 @@
+{
+  "name": "project",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Ozimnadius"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "normalize-css": "^5.0.0",
+    "jquery-fancyBox": "^3.0.47",
+    "jquery.inputmask": "^3.3.4",
+    "owl.carousel": "owl-carousel2#^2.2.1"
+  }
+}
